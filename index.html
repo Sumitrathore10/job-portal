@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="./src/index.css">
+  </head>
+  <body>
+    <div class="box">
+      <header>
+          <nav>
+              <ul>
+                  <li>Find Work</li>
+                  <li>Application</li>
+                  <li>Upskill</li>
+                  <li>Post a job</li>    
+              </ul>
+              <button>Login</button>
+          </nav>
+      </header>
+      <main>
+          
+          <div class="page">
+              <h1 class="text-1">Employment opportunities for skilled tradesmen</h1>
+              <h1 class="text-2">No Experience? No Problem</h1>
+              <h4 class="text-3">Empowering Tradesmen with Abundant Job Opportunities</h4>
+              <button>Find a Work</button>
+              <div class="search">
+                  <input type="text" placeholder="Search for work">
+                  <button id="search-btn">Search</button>  
+              </div>
+          </div>    
+      </main>
+
+      <div class="page1">
+
+      <h2>Featured Jobs</h2>
+
+      <div class="parts">
+ 
+        <div class="part-1">
+            <h4>Filter</h4>
+            <div class="filter-part">
+                <div class="filter-part1">
+                    <h4>Location</h4>
+                    <div class="dropdown">
+                        <button class="dropbtn"><i class="ri-map-pin-2-fill"></i>Location</button>
+                        <div class="dropdown-content">
+                            <p>Link 1</p>
+                            <p>Link 2</p>
+                            <p>Link 3</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-part2">
+                    <h4>Employment type</h4>
+                    <div class="full">
+                        <input type="checkbox" name="Full-time" id="Full-time">
+                    <label for="Full-time">Full-time</label>
+                    </div>
+                    <div class="full">
+                        <input type="checkbox" name="Part-time" id="Part-time">
+                    <label for="Part-time">Part-time</label>
+                    </div>
+                </div>
+
+                <div class="filter-part3">
+
+                    <h4>Specil Skill</h4>
+
+                    <div class="full">
+                        <input type="checkbox" name="Full-time" id="Full-time">
+                    <label for="Full-time">React</label>
+                    </div>
+                    <div class="full">
+                        <input type="checkbox" name="Part-time" id="Part-time">
+                    <label for="Part-time">Angular</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="root" class="part-2">
+
+          
+        </div>
+
+        <div class="part-3"></div>
+      </div>
+      </div>
+      <div class="page2">
+          <div class="section1">
+              <h2 class="sec1-text">Post a Featured Job</h2>
+
+              <p style="width: 30vw;" class="sec1-text-2">Posting a featured job increases visibility and attracts top talent. It stands out on the job board and often receives additional promotion through social media and email, boosting the chances of finding the right candidate.</p>
+              <button class="btn-sec-1">Post a featured job</button>
+          </div>
+          
+          <div class="section2">
+              <h2 class="sec2-text">Post a Free Job</h2>
+
+              <p style="width: 30vw;" class="sec2-text-2">Posting a free job listing is budget-friendly and reaches a large pool of job seekers, offering a cost-effective solution for filling positions with qualified candidates. It can also help build a talent pipeline for future job openings.</p>
+              <button class="btn-sec-2">Post a free job</button>
+
+          </div>
+      </div>
+      <div class="page3">
+          <p style="width: 30vw;">Join our newsletter and receive a weekly update of the top job openings directly in your inbo</p>
+          <input type="text" placeholder="Enter your email">
+          <button class="btn-sec-2">Subscribe</button>
+      </div>
+      <footer>
+          <div class="row1">
+              <h4>Navigation</h4>
+              <div class="sub">
+                  <p>Find Work</p>
+                  <p>Application</p>
+                  <p>Upskill</p>
+                  <p>Post a free job</p>
+                  <p>Post a featured job</p>
+
+              </div>
+          </div>
+
+          <div class="row1">
+              <h4>Industry</h4>
+              <div class="sub">
+                  <p>Carpentry and Woodworking</p>
+                  <p>Plumbing and Heating</p>
+                  <p>Electrical Services</p>
+                  <p>Masonry and Bricklaying</p>
+                  <p>Painting and Decorating</p>
+
+              </div>
+          </div>
+
+          <div class="row1">
+              <h4>Location</h4>
+              <div class="sub">
+                  <p>Delhi</p>
+                  <p>Haryana</p>
+                  <p>Uttar Pradesh</p>
+                  <p>Rajasthan</p>
+                  <p>Punjab</p>
+
+              </div>
+          </div>
+          
+      </footer>
+      <div class="rights">
+          <h2>Copyright &copy; Companyname . 2024 All rights reserved</h2>
+          
+      </div>
+  </div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script src="script.js"></script>
+  </body>
+</html>
